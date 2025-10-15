@@ -5,11 +5,11 @@ import argparse
 
 # --- Konfigurasi Awal & Pengambilan Secrets ---
 try:
-    CF_API_TOKEN = os.environ['CLOUDFLARE_API_TOKEN']
-    CF_ZONE_ID = os.environ['CLOUDFLARE_ZONE_ID']
-    DOMAIN = os.environ['DOMAIN_NAME']
-    TG_BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
-    TG_CHAT_ID = os.environ['TELEGRAM_CHAT_ID']
+    CF_API_TOKEN = os.environ['L2wXbydakDs1hxMiceQFLxWtKGJQ5ltS7qbyGRQz']
+    CF_ZONE_ID = os.environ['cb87f7a001b6320630cfc050eb92321b']
+    DOMAIN = os.environ['kaisarstore.dpdns.org']
+    TG_BOT_TOKEN = os.environ['7912451318:AAHcUcdFFG4U2D7lF7iSsR3yfpFsBC94KT4']
+    TG_CHAT_ID = os.environ['6222865137']
 except KeyError as e:
     print(f"❌ Error: Secret {e} belum diatur di Pengaturan Repositori GitHub.")
     sys.exit(1)
