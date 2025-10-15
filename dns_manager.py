@@ -5,7 +5,7 @@ import argparse
 
 # --- Konfigurasi Awal & Pengambilan Secrets ---
 try:
-    CF_API_TOKEN = os.environ['OSnoGJX8HNkIPGhIulXPYwmY_guY-8TIA9BBMZqG']
+    CF_API_TOKEN = os.environ['S1dt6X7BJiOcC5D2TkqIZQF1dlBUfXX9qk0FKq70']
     CF_ZONE_ID = os.environ['cb87f7a001b6320630cfc050eb92321b']
     DOMAIN = os.environ['kaisarstore.dpdns.org']
     TG_BOT_TOKEN = os.environ['7912451318:AAHcUcdFFG4U2D7lF7iSsR3yfpFsBC94KT4']
